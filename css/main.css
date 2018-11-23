@@ -468,7 +468,6 @@ header.header {
   width: 100% !important;
   -webkit-box-shadow: 0px 11px 53px 21px #ebebeb;
           box-shadow: 0px 11px 53px 21px #ebebeb;
-  height: 125px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -577,13 +576,13 @@ header.header nav.down ul.left li a:hover {
 }
 
 section.carousel {
-  position: absolute;
-  top: 148px;
-  left: 0px;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 section.books_rated {
+  margin-bottom: 50px;
+  height: 100%;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -876,9 +875,7 @@ section.books_recent .books .img_book img:hover {
 }
 
 footer.footer {
-  height: 400px;
   position: relative;
-  bottom: -200px;
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: -webkit-box;
@@ -897,7 +894,6 @@ footer.footer .top {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 250px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -1044,6 +1040,7 @@ footer.footer .social .social-icons a.social-square:hover i {
   padding: 10px 15px;
   margin-left: 10px;
   outline: none;
+  color: white;
   background: transparent;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1142,5 +1139,104 @@ a {
 #return-to-top:hover i {
   color: #fff;
   top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav.top ul.left li {
+    display: none;
+  }
+  nav.top ul.left li:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav.top ul.center li {
+    margin-right: 100px;
+    width: 100px;
+  }
+  nav.top ul.right li {
+    display: none;
+  }
+  section.carousel {
+    top: 75px;
+    height: 100px;
+    margin: 0px;
+  }
+  header.header nav.down {
+    display: none;
+  }
+  section.card {
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: -150px;
+    position: relative;
+  }
+  section.card .books, section.card .authors {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (100px)[4];
+        grid-template-rows: repeat(4, 100px);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: 100%;
+    padding: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer.footer .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer.footer .top .info {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  footer.footer .top .info h3 {
+    margin-left: 35px;
+  }
+  footer.footer .top .social {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  footer.footer .top .social h3 {
+    margin-left: -15px;
+  }
+  footer.footer .top .social .social-container {
+    margin-left: -25px;
+  }
+  footer.footer .top .contact {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: -150px;
+    margin-bottom: 20px;
+  }
+  footer.footer .center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+  footer.footer .center h5 {
+    font-size: 10px;
+  }
+  footer.footer .bottom h3 {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
