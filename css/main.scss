@@ -2,7 +2,11 @@
   font-family: pfs-bold;
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFSquareSansPro-Bold.otf");
 }
-
+.shine
+{
+  border:1px solid white;
+  height: 100%;
+}
 body,html{
   
   padding:0px;
@@ -593,7 +597,6 @@ section.carousel
 }
 section.books_rated
 {
-  
   font-family: 'Courier New', Courier, monospace;
   h3
   {
@@ -602,7 +605,7 @@ section.books_rated
     padding: 8px 5px;
     border:1px dotted $color-header;
     border-left: none;
-    color:$color-primary;
+    color:rgb(9, 129, 150);
   
     display: inline;
     border-right: none;
@@ -610,7 +613,7 @@ section.books_rated
   a.right
   {
 padding: 8px 10px;
-background: $color-accent;
+background: $color-primary;
 color:white;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
 float: right;
@@ -629,36 +632,46 @@ display: inline-block;
     background: linear-gradient(to bottom right, $color_primary,rgb(9, 150, 79));
     grid-template-rows:100px;
     grid-template-columns: repeat(4,1fr);
+
     box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+    i
+    {
+      font-size: 20px;
+      color:white;
+      line-height:100px;
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.322);
+      
+    }
   .img_book{
     transform: scale(0.9);
-
+padding: 0px;
+margin: 0px;
 cursor: pointer;
 
     h1.title
     {
 text-align: center;
-z-index: 2;
 margin-top:-5px;
 color: rgb(10, 10, 10);
 padding-bottom:5px;
 background: #ecf0f1;
     }
-    transform: scale(0.9);
+   
       img
       {
-    
+        transform: scale(0.5);
+        padding: 0px;
+        margin: 0px;
        cursor: pointer;
        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       &:hover{
-        transform: scale(0.9);
-       }
+  
       }
     }
     }
    
   }
+
   section.books_trending
   {
     font-family: 'Courier New', Courier, monospace;
@@ -722,7 +735,7 @@ background: #ecf0f1;
       transform: scale(0.9);
         img
         {
-      
+          transform: scale(0.5);
          cursor: pointer;
          box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
          transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -766,7 +779,7 @@ display: inline-block;
   .authors
   {
     height:115%;
-    padding: 10px;
+    padding: 5px;
    
     margin:20px 60px;
     display:grid;
@@ -790,6 +803,7 @@ background: #ecf0f1;
       {
   border-radius: 100%;
   width:250px;
+  transform: scale(0.6);
   height: 250px;
   margin-left:20px;
   border:1px solid white;
@@ -857,7 +871,7 @@ background: #ecf0f1;
     }
       img
       {
-  
+        transform: scale(0.5);
        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
        cursor: pointer;

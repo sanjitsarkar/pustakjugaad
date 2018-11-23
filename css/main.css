@@ -4,6 +4,11 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFSquareSansPro-Bold.otf");
 }
 
+.shine {
+  border: 1px solid white;
+  height: 100%;
+}
+
 body, html {
   padding: 0px;
   margin: 0px;
@@ -588,14 +593,14 @@ section.books_rated h3 {
   padding: 8px 5px;
   border: 1px dotted #a5a5a3;
   border-left: none;
-  color: #34495e;
+  color: #098196;
   display: inline;
   border-right: none;
 }
 
 section.books_rated a.right {
   padding: 8px 10px;
-  background: rgba(255, 122, 13, 0.972);
+  background: #34495e;
   color: white;
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
@@ -620,16 +625,23 @@ section.books_rated .books {
           box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
 }
 
+section.books_rated .books i {
+  font-size: 20px;
+  color: white;
+  line-height: 100px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.322);
+}
+
 section.books_rated .books .img_book {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+  padding: 0px;
+  margin: 0px;
   cursor: pointer;
-  transform: scale(0.9);
 }
 
 section.books_rated .books .img_book h1.title {
   text-align: center;
-  z-index: 2;
   margin-top: -5px;
   color: #0a0a0a;
   padding-bottom: 5px;
@@ -637,16 +649,15 @@ section.books_rated .books .img_book h1.title {
 }
 
 section.books_rated .books .img_book img {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  padding: 0px;
+  margin: 0px;
   cursor: pointer;
   -webkit-box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
           box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
   -webkit-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-section.books_rated .books .img_book img:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
 }
 
 section.books_trending {
@@ -714,6 +725,8 @@ section.books_trending .books .img_book h1.title {
 }
 
 section.books_trending .books .img_book img {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
   cursor: pointer;
   -webkit-box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
           box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
@@ -750,7 +763,7 @@ section.author_in_focus a.right {
 
 section.author_in_focus .authors {
   height: 115%;
-  padding: 10px;
+  padding: 5px;
   margin: 20px 60px;
   display: -ms-grid;
   display: grid;
@@ -782,6 +795,8 @@ section.author_in_focus .authors .img_author h1.title {
 section.author_in_focus .authors .img_author img {
   border-radius: 100%;
   width: 250px;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
   height: 250px;
   margin-left: 20px;
   border: 1px solid white;
@@ -846,6 +861,8 @@ section.books_recent .books .img_book h1.title {
 }
 
 section.books_recent .books .img_book img {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
   -webkit-box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
           box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
   -webkit-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
