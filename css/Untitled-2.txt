@@ -1,0 +1,369 @@
+
+// section.top_featured
+// {
+ 
+//   font-family: 'Courier New', Courier, monospace;
+//   h3
+//   {
+//     margin:60px;
+//     text-align: center;
+//     padding: 8px 5px;
+//     border:1px dotted $color-header;
+//     border-left: none;
+//     color:rgb(9, 129, 150);
+  
+//     display: inline;
+//     border-right: none;
+//   }
+//   a.right
+//   {
+// padding: 8px 10px;
+// background: $color-primary;
+// color:white;
+// box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+// float: right;
+
+// margin-right:100px;
+// display: inline-block;
+//   }
+  
+//   .books
+//   {
+//     height:115%;
+//     padding: 10px;
+   
+//     margin:20px 60px;
+//     display:grid;
+//     background: linear-gradient(to bottom right, rgb(31, 185, 160),rgb(150, 9, 103));
+//     grid-template-rows:100px;
+//     grid-template-columns: repeat(4,1fr);
+
+//     box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+//     i
+//     {
+//       font-size: 20px;
+//       color:white;
+//       line-height:100px;
+//       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.322);
+      
+//     }
+//   .img_book{
+// width:300px;
+// height:100px;
+// padding: 0px;
+// margin: 0px;
+// cursor: pointer;
+
+//     h1.title
+//     {
+// text-align: center;
+// margin-top:-5px;
+// color: rgb(10, 10, 10);
+// padding-bottom:5px;
+// background: #ecf0f1;
+//     }
+   
+//       img
+//       {
+//         transform: scale(0.5);
+//         padding: 0px;
+//         margin: 0px;
+//        cursor: pointer;
+//        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
+//        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+//       }
+//     }
+//     }
+   
+//   }
+
+// section.books_rated
+// {
+// // margin-bottom:50px;
+// // height:100%;
+//   font-family: 'Courier New', Courier, monospace;
+//   h3
+//   {
+//     // margin:60px;
+//     // text-align: center;
+//     padding: 8px 5px;
+//     border:1px dotted $color-header;
+//     border-left: none;
+//     color:rgb(9, 129, 150);
+  
+//     display: inline;
+//     border-right: none;
+//   }
+//   a.right
+//   {
+// padding: 8px 10px;
+// background: $color-primary;
+// color:white;
+// box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+// float: right;
+
+// margin-right:100px;
+// display: inline-block;
+//   }
+  
+//   .books
+//   {
+//     // height:115%;
+//     // padding: 10px;
+
+//     // margin:20px 60px;
+ 
+//     background: linear-gradient(to bottom right, $color_primary,rgb(9, 150, 79));
+//   display: flex;
+
+//     box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+//     i
+//     {
+//       font-size: 20px;
+//       color:white;
+//       line-height:100px;
+//       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.322);
+      
+//     }
+//   .img_book{
+//     transform: scale(0.9);
+// padding: 0px;
+// margin: 0px;
+// cursor: pointer;
+
+//     h1.title
+//     {
+// text-align: center;
+// margin-top:-5px;
+// color: rgb(10, 10, 10);
+// padding-bottom:5px;
+// background: #ecf0f1;
+//     }
+   
+//       img
+//       {
+//         transform: scale(0.5);
+//         padding: 0px;
+//         margin: 0px;
+//        cursor: pointer;
+//        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
+//        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+//       }
+//     }
+//     }
+   
+//   }
+
+//   section.books_trending
+//   {
+//     font-family: 'Courier New', Courier, monospace;
+//     h3
+//     {
+//       margin:60px;
+//       text-align: center;
+//       padding: 8px 5px;
+//       border:1px dotted $color-header;
+//       border-left: none;
+//       color:rgb(9, 129, 150);
+    
+//       display: inline;
+//       border-right: none;
+//     }
+//     a.right
+//     {
+//   padding: 8px 10px;
+//   background: $color-accent;
+//   color:white;
+//   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+//   float: right;
+  
+//   margin-right:100px;
+//   display: inline-block;
+//     }
+    
+//     .books
+//     {
+//       height:115%;
+//       padding: 10px;
+     
+//       margin:20px 60px;
+//       display:grid;
+//       background: linear-gradient(to bottom right,rgb(5, 217, 255) ,rgb(9, 129, 150));
+//       grid-template-rows:100px;
+//       grid-template-columns: repeat(6,1fr);
+
+//       box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+//       i
+//       {
+//         font-size: 20px;
+//         color:white;
+//         line-height:100px;
+//         text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.322);
+        
+//       }
+//     .img_book{
+//       transform: scale(0.9);
+  
+//   cursor: pointer;
+  
+//       h1.title
+//       {
+//   text-align: center;
+//   margin-top:-5px;
+//   color: rgb(10, 10, 10);
+//   padding-bottom:5px;
+//   background: #ecf0f1;
+//       }
+//       transform: scale(0.9);
+//         img
+//         {
+//           transform: scale(0.5);
+//          cursor: pointer;
+//          box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
+//          transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+//          &:hover{
+//           transform: scale(0.9);
+//          }
+//         }
+//       }
+//       }
+     
+//     }
+  
+  
+// section.author_in_focus
+// {
+// h3
+// {
+//   margin:60px;
+//   text-align: center;
+//   padding: 8px 5px;
+//   border:1px dotted $color-header;
+//   border-left: none;
+//   color:rgb(35, 76, 129);
+
+//   display: inline;
+//   border-right: none;
+
+// }
+// a.right
+// {
+// padding: 8px 10px;
+// background: $color-accent;
+// color:white;
+// box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+// float: right;
+
+// margin-right:100px;
+// display: inline-block;
+// }
+
+//   .authors
+//   {
+//     height:115%;
+//     padding: 5px;
+   
+//     margin:20px 60px;
+//     display:grid;
+//     background: linear-gradient(to bottom right,rgb(35, 76, 129),rgb(78, 90, 105));
+//     grid-template-rows:100px;
+//     grid-template-columns: repeat(4,1fr);
+//     box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+//   .img_author
+//   {  transform: scale(0.9);
+//     cursor: pointer;
+//     font-family: 'Courier New', Courier, monospace;
+//     h1.title
+//     {
+// text-align: center;
+// margin-top:10px;
+// color: rgb(10, 10, 10);
+// padding-bottom:5px;
+// background: #ecf0f1;
+//     }
+//       img
+//       {
+//   border-radius: 100%;
+//   width:250px;
+//   transform: scale(0.6);
+//   height: 250px;
+//   margin-left:20px;
+//   border:1px solid white;
+//        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
+//        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+//        cursor: pointer;
+//        &:hover{
+//         // transform: scale(0.9);
+//        }
+//       }
+//     }  
+   
+//   }
+// }
+
+// section.books_recent
+// {
+// h3
+// {
+//   margin:60px;
+//   text-align: center;
+//   padding: 8px 5px;
+//   border:1px dotted $color-header;
+//   border-left: none;
+//   color:$color-accent;
+
+//   display: inline;
+//   border-right: none;
+
+// }
+// a.right
+// {
+// padding: 8px 10px;
+// background: $color-accent;
+// color:white;
+// box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+// float: right;
+
+// margin-right:100px;
+// display: inline-block;
+// }
+
+//   .books
+//   {
+//     height:115%;
+//     padding: 10px;
+   
+//     margin:20px 60px;
+//     display:grid;
+//     background: linear-gradient(to bottom right, $color-accent,rgb(240, 35, 16));
+//     grid-template-rows:100px;
+//     grid-template-columns: repeat(4,1fr);
+//     box-shadow: 0px 0px 30px rgba(22, 22, 22, 0.534);
+//   .img_book
+//   {  transform: scale(0.9);
+//     cursor: pointer;
+//     font-family: 'Courier New', Courier, monospace;
+//     h1.title
+//     {
+// text-align: center;
+// margin-top:-5px;
+// color: rgb(10, 10, 10);
+// padding-bottom:5px;
+// background: #ecf0f1;
+//     }
+//       img
+//       {
+//         transform: scale(0.5);
+//        box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.534);
+//        transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+//        cursor: pointer;
+//        &:hover{
+//         transform: scale(0.9);
+//        }
+//       }
+//     }  
+   
+//   }
+// }
